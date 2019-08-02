@@ -53,7 +53,7 @@ pool= new Pool({
   
     
      let mailOptions = {
-         from: '"Contact us " <sudesh@visertechnosys.com>', 
+         from: '"Contact us " <xyz@visertechnosys.com>', 
          to: 'vineet@visertechnosys.com', 
          subject: 'New report', 
          text: 'New Tally Course request', 

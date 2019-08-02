@@ -1,4 +1,4 @@
-From node:10
+From node:latest
 
 # create app dirtectory
 
@@ -14,6 +14,6 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 1010 
+EXPOSE 8080
 
 CMD ["node","server.js"]
